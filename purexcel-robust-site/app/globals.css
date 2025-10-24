@@ -1,0 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{ --brand-dark:#010819; --brand-green:#0BAD4F; --brand-blue:#0E7DA2; --brand-teal1:#05282F; --brand-teal2:#04555D; --brand-purple:#6E59B3; }
+html, body { height: 100%; }
+body { @apply bg-[color:var(--brand-dark)] text-slate-100; }
